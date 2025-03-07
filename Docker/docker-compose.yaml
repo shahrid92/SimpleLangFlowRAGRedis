@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+
+  langflow-demo:
+    image: langflowai/langflow:latest
+    container_name: langflow-test
+    ports:
+    - "7860:7860"
+    environment:
+      - DO_NOT_TRACK=true # I donk like to be tracked
+    networks: 
+    - mynet
+
+  redis-vdb:
+    image: redis/redis-stack:latest
+    container_name: redis-stack
+    ports:
+    - "6379:6379" #standard redis port
+    volumes:
+      - /conf:/usr/local/etc/redis
+    command: redis-server /usr/local/etc/redis/redis.conf #load config after service up
+    networks:
+    - mynet
+
+# setup network bridge between langflow and redis
+networks: 
+  mynet:
+    external: true
