@@ -50,6 +50,7 @@ docker-compose up -d
 ## My References Links
 
 - RAG with RedisVL: https://redis.io/blog/from-zero-to-rag-building-your-first-rag-pipeline-with-redisvl/
+- The resource files getting from redis dev github: https://github.com/redis-developer/redis-ai-resources/tree/main/python-recipes/RAG
 - Langchain Community vector store redis documents:
 https://api.python.langchain.com/en/latest/vectorstores/langchain_community.vectorstores.redis.base.Redis.html
 - READMe Templates: https://github.com/jehna/readme-best-practices
