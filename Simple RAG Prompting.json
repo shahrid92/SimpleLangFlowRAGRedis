@@ -1,13 +1,13 @@
 {
-  "id": "c05e8846-f080-40b3-bf53-e5d487997c7c",
+  "id": "5c368443-ef17-4254-a3b9-e95ae4e6a9f5",
   "data": {
     "nodes": [
       {
-        "id": "RedisChatMemory-2ockh",
+        "id": "RedisChatMemory-mmDsM",
         "type": "genericNode",
         "position": {
-          "x": -59.30529629707131,
-          "y": 766.5792221929618
+          "x": 136.3715480364723,
+          "y": 1130.72146669583
         },
         "data": {
           "node": {
@@ -60,7 +60,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "host",
-                "value": "172.22.0.3",
+                "value": "172.22.0.2",
                 "display_name": "hostname",
                 "advanced": false,
                 "dynamic": false,
@@ -223,21 +223,20 @@
           },
           "showNode": true,
           "type": "RedisChatMemory",
-          "id": "RedisChatMemory-2ockh"
+          "id": "RedisChatMemory-mmDsM"
         },
         "selected": false,
         "measured": {
           "width": 320,
           "height": 412
-        },
-        "dragging": false
+        }
       },
       {
-        "id": "StoreMessage-1HHUc",
+        "id": "StoreMessage-xwKUl",
         "type": "genericNode",
         "position": {
-          "x": 1773.0222189611477,
-          "y": 1110.6464089308502
+          "x": 2282.8876091711627,
+          "y": 1505.2759516858825
         },
         "data": {
           "node": {
@@ -340,7 +339,7 @@
                 "name": "sender_name",
                 "value": "",
                 "display_name": "Sender Name",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Message"
                 ],
@@ -363,7 +362,7 @@
                 "name": "session_id",
                 "value": "",
                 "display_name": "Session ID",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Message"
                 ],
@@ -399,6 +398,7 @@
                 "method": "store_message",
                 "value": "__UNDEFINED__",
                 "cache": true,
+                "required_inputs": null,
                 "allows_loop": false,
                 "tool_mode": true
               }
@@ -419,21 +419,21 @@
           },
           "showNode": true,
           "type": "StoreMessage",
-          "id": "StoreMessage-1HHUc"
+          "id": "StoreMessage-xwKUl"
         },
         "selected": false,
         "measured": {
           "width": 320,
-          "height": 269
+          "height": 457
         },
         "dragging": false
       },
       {
-        "id": "ChatInput-6jYEd",
+        "id": "ChatInput-TGepr",
         "type": "genericNode",
         "position": {
-          "x": 750,
-          "y": 390
+          "x": 945.6768443335436,
+          "y": 754.1422445028683
         },
         "data": {
           "node": {
@@ -627,7 +627,7 @@
                 "name": "session_id",
                 "value": "",
                 "display_name": "Session ID",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Message"
                 ],
@@ -727,7 +727,7 @@
           },
           "showNode": false,
           "type": "ChatInput",
-          "id": "ChatInput-6jYEd"
+          "id": "ChatInput-TGepr"
         },
         "selected": false,
         "measured": {
@@ -736,11 +736,11 @@
         }
       },
       {
-        "id": "ChatOutput-k00VP",
+        "id": "ChatOutput-GYrIW",
         "type": "genericNode",
         "position": {
-          "x": 2957.2150703273087,
-          "y": 884.5307956669716
+          "x": 3152.8919146608523,
+          "y": 1248.6730401698399
         },
         "data": {
           "node": {
@@ -1033,21 +1033,20 @@
           },
           "showNode": false,
           "type": "ChatOutput",
-          "id": "ChatOutput-k00VP"
+          "id": "ChatOutput-GYrIW"
         },
         "selected": false,
         "measured": {
           "width": 192,
           "height": 66
-        },
-        "dragging": false
+        }
       },
       {
-        "id": "OllamaModel-Eyu6N",
+        "id": "OllamaModel-SOVVu",
         "type": "genericNode",
         "position": {
-          "x": 1988.4705569311072,
-          "y": 190.85775549713176
+          "x": 2184.147401264651,
+          "y": 555
         },
         "data": {
           "node": {
@@ -1688,21 +1687,20 @@
           },
           "showNode": true,
           "type": "OllamaModel",
-          "id": "OllamaModel-Eyu6N"
+          "id": "OllamaModel-SOVVu"
         },
         "selected": false,
         "measured": {
           "width": 320,
           "height": 696
-        },
-        "dragging": false
+        }
       },
       {
-        "id": "Memory-7ZUkI",
+        "id": "Memory-4p6fp",
         "type": "genericNode",
         "position": {
-          "x": 395.30175258123654,
-          "y": 610.4248944550512
+          "x": 590.9785969147802,
+          "y": 974.5671389579196
         },
         "data": {
           "node": {
@@ -1942,7 +1940,7 @@
           },
           "showNode": true,
           "type": "Memory",
-          "id": "Memory-7ZUkI"
+          "id": "Memory-4p6fp"
         },
         "selected": false,
         "measured": {
@@ -1952,11 +1950,11 @@
         "dragging": false
       },
       {
-        "id": "Redis-6bnvK",
+        "id": "Redis-hqSFR",
         "type": "genericNode",
         "position": {
-          "x": 797.6449677165938,
-          "y": 1374.4626879348568
+          "x": 1097.948092001206,
+          "y": 1661.0371731636567
         },
         "data": {
           "node": {
@@ -2109,7 +2107,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "search_query",
-                "value": "Nike profit margins and company performance",
+                "value": "",
                 "display_name": "Search Query",
                 "advanced": false,
                 "input_types": [
@@ -2206,9 +2204,9 @@
           },
           "showNode": true,
           "type": "Redis",
-          "id": "Redis-6bnvK"
+          "id": "Redis-hqSFR"
         },
-        "selected": true,
+        "selected": false,
         "measured": {
           "width": 320,
           "height": 610
@@ -2216,11 +2214,11 @@
         "dragging": false
       },
       {
-        "id": "OllamaEmbeddings-zkSL3",
+        "id": "OllamaEmbeddings-C22Mk",
         "type": "genericNode",
         "position": {
-          "x": -123.10241317238496,
-          "y": 1827.9170969876923
+          "x": 72.57443116115866,
+          "y": 2192.0593414905607
         },
         "data": {
           "node": {
@@ -2335,21 +2333,20 @@
           },
           "showNode": true,
           "type": "OllamaEmbeddings",
-          "id": "OllamaEmbeddings-zkSL3"
+          "id": "OllamaEmbeddings-C22Mk"
         },
         "selected": false,
         "measured": {
           "width": 320,
           "height": 310
-        },
-        "dragging": false
+        }
       },
       {
-        "id": "Prompt-TooYY",
+        "id": "Prompt-1rJE5",
         "type": "genericNode",
         "position": {
-          "x": 1260.3708412456308,
-          "y": 664.6804160515669
+          "x": 1462.5771843400546,
+          "y": 991.5036892801609
         },
         "data": {
           "node": {
@@ -2382,7 +2379,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "template",
-                "value": "Documents or context user to be refer:\n{context}\n\n\nCha history:\n{memory}",
+                "value": "Documents or context user to be refer:\n{context}\n\n\nalso refer to this chat history:\n{memory}",
                 "display_name": "Template",
                 "advanced": false,
                 "dynamic": false,
@@ -2513,7 +2510,7 @@
           },
           "showNode": true,
           "type": "Prompt",
-          "id": "Prompt-TooYY"
+          "id": "Prompt-1rJE5"
         },
         "selected": false,
         "measured": {
@@ -2523,11 +2520,11 @@
         "dragging": false
       },
       {
-        "id": "ParseDataFrame-TuQiI",
+        "id": "ParseDataFrame-FncZ6",
         "type": "genericNode",
         "position": {
-          "x": 1238.9075141915323,
-          "y": 1435.5138300077426
+          "x": 1737.6397901074818,
+          "y": 1870.0082282708122
         },
         "data": {
           "node": {
@@ -2659,7 +2656,7 @@
           },
           "showNode": true,
           "type": "ParseDataFrame",
-          "id": "ParseDataFrame-TuQiI"
+          "id": "ParseDataFrame-FncZ6"
         },
         "selected": false,
         "measured": {
@@ -2669,11 +2666,11 @@
         "dragging": false
       },
       {
-        "id": "File-8cDZI",
+        "id": "File-d5Wk4",
         "type": "genericNode",
         "position": {
-          "x": -210.6768443335436,
-          "y": 1353.3882735164998
+          "x": 5.461879168111665,
+          "y": 1697.0686388512565
         },
         "data": {
           "node": {
@@ -2702,7 +2699,7 @@
               },
               "path": {
                 "trace_as_metadata": true,
-                "file_path": "c05e8846-f080-40b3-bf53-e5d487997c7c/2025-03-07_13-56-06_Load-Performance-Test-Plan-Template-2.pdf",
+                "file_path": "5c368443-ef17-4254-a3b9-e95ae4e6a9f5/2025-03-15_01-34-17_aapl-10k-2023.pdf",
                 "fileTypes": [
                   "txt",
                   "md",
@@ -2770,9 +2767,9 @@
                 "placeholder": "",
                 "show": true,
                 "name": "concurrency_multithreading",
-                "value": 1,
+                "value": 5,
                 "display_name": "Processing Concurrency",
-                "advanced": true,
+                "advanced": false,
                 "dynamic": false,
                 "info": "When multiple files are being processed, the number of files to process concurrently.",
                 "title_case": false,
@@ -2918,21 +2915,21 @@
           },
           "showNode": true,
           "type": "File",
-          "id": "File-8cDZI"
+          "id": "File-d5Wk4"
         },
         "selected": false,
         "measured": {
           "width": 320,
-          "height": 227
+          "height": 308
         },
         "dragging": false
       },
       {
-        "id": "SplitText-ZJult",
+        "id": "SplitText-BYzAg",
         "type": "genericNode",
         "position": {
-          "x": 307.79383945770655,
-          "y": 1307.1237502675435
+          "x": 503.47068379125017,
+          "y": 1671.2659947704117
         },
         "data": {
           "node": {
@@ -3118,391 +3115,363 @@
           },
           "showNode": true,
           "type": "SplitText",
-          "id": "SplitText-ZJult"
+          "id": "SplitText-BYzAg"
         },
         "selected": false,
         "measured": {
           "width": 320,
           "height": 504
-        },
-        "dragging": false
+        }
       }
     ],
     "edges": [
       {
-        "source": "RedisChatMemory-2ockh",
-        "sourceHandle": "{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-2ockhœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}",
-        "target": "StoreMessage-1HHUc",
-        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œStoreMessage-1HHUcœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
+        "source": "RedisChatMemory-mmDsM",
+        "target": "StoreMessage-xwKUl",
+        "sourceHandle": "{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-mmDsMœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}",
+        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œStoreMessage-xwKUlœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-RedisChatMemory-mmDsM{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-mmDsMœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}-StoreMessage-xwKUl{œfieldNameœ:œmemoryœ,œidœ:œStoreMessage-xwKUlœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
         "data": {
-          "targetHandle": {
-            "fieldName": "memory",
-            "id": "StoreMessage-1HHUc",
-            "inputTypes": [
-              "Memory"
-            ],
-            "type": "other"
-          },
           "sourceHandle": {
             "dataType": "RedisChatMemory",
-            "id": "RedisChatMemory-2ockh",
+            "id": "RedisChatMemory-mmDsM",
             "name": "memory",
             "output_types": [
               "Memory"
             ]
+          },
+          "targetHandle": {
+            "fieldName": "memory",
+            "id": "StoreMessage-xwKUl",
+            "inputTypes": [
+              "Memory"
+            ],
+            "type": "other"
           }
         },
-        "id": "xy-edge__RedisChatMemory-2ockh{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-2ockhœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}-StoreMessage-1HHUc{œfieldNameœ:œmemoryœ,œidœ:œStoreMessage-1HHUcœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
+        "selected": false,
         "animated": false,
-        "className": "",
-        "selected": false
+        "className": ""
       },
       {
-        "source": "ChatOutput-k00VP",
-        "sourceHandle": "{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-k00VPœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "StoreMessage-1HHUc",
-        "targetHandle": "{œfieldNameœ:œmessageœ,œidœ:œStoreMessage-1HHUcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ChatOutput-GYrIW",
+        "target": "StoreMessage-xwKUl",
+        "sourceHandle": "{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-GYrIWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œmessageœ,œidœ:œStoreMessage-xwKUlœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatOutput-GYrIW{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-GYrIWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-StoreMessage-xwKUl{œfieldNameœ:œmessageœ,œidœ:œStoreMessage-xwKUlœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
-          "targetHandle": {
-            "fieldName": "message",
-            "id": "StoreMessage-1HHUc",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
           "sourceHandle": {
             "dataType": "ChatOutput",
-            "id": "ChatOutput-k00VP",
+            "id": "ChatOutput-GYrIW",
             "name": "message",
             "output_types": [
               "Message"
             ]
+          },
+          "targetHandle": {
+            "fieldName": "message",
+            "id": "StoreMessage-xwKUl",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
           }
         },
-        "id": "xy-edge__ChatOutput-k00VP{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-k00VPœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-StoreMessage-1HHUc{œfieldNameœ:œmessageœ,œidœ:œStoreMessage-1HHUcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
         "animated": false,
-        "className": "",
-        "selected": false
+        "className": ""
       },
       {
-        "source": "OllamaModel-Eyu6N",
-        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-Eyu6Nœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-k00VP",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-k00VPœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "source": "OllamaModel-SOVVu",
+        "target": "ChatOutput-GYrIW",
+        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-SOVVuœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-GYrIWœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaModel-SOVVu{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-SOVVuœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-GYrIW{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-GYrIWœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "data": {
+          "sourceHandle": {
+            "dataType": "OllamaModel",
+            "id": "OllamaModel-SOVVu",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-k00VP",
+            "id": "ChatOutput-GYrIW",
             "inputTypes": [
               "Data",
               "DataFrame",
               "Message"
             ],
             "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "OllamaModel",
-            "id": "OllamaModel-Eyu6N",
-            "name": "text_output",
-            "output_types": [
-              "Message"
-            ]
           }
         },
-        "id": "xy-edge__OllamaModel-Eyu6N{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-Eyu6Nœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-k00VP{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-k00VPœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "ChatInput-6jYEd",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6jYEdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "OllamaModel-Eyu6N",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-Eyu6Nœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "OllamaModel-Eyu6N",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ChatInput",
-            "id": "ChatInput-6jYEd",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "xy-edge__ChatInput-6jYEd{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6jYEdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-OllamaModel-Eyu6N{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-Eyu6Nœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "RedisChatMemory-2ockh",
-        "sourceHandle": "{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-2ockhœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}",
-        "target": "Memory-7ZUkI",
-        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œMemory-7ZUkIœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "memory",
-            "id": "Memory-7ZUkI",
-            "inputTypes": [
-              "Memory"
-            ],
-            "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "RedisChatMemory",
-            "id": "RedisChatMemory-2ockh",
-            "name": "memory",
-            "output_types": [
-              "Memory"
-            ]
-          }
-        },
-        "id": "xy-edge__RedisChatMemory-2ockh{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-2ockhœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}-Memory-7ZUkI{œfieldNameœ:œmemoryœ,œidœ:œMemory-7ZUkIœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "OllamaEmbeddings-zkSL3",
-        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zkSL3œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "Redis-6bnvK",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "embedding",
-            "id": "Redis-6bnvK",
-            "inputTypes": [
-              "Embeddings"
-            ],
-            "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "OllamaEmbeddings",
-            "id": "OllamaEmbeddings-zkSL3",
-            "name": "embeddings",
-            "output_types": [
-              "Embeddings"
-            ]
-          }
-        },
-        "id": "xy-edge__OllamaEmbeddings-zkSL3{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zkSL3œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Redis-6bnvK{œfieldNameœ:œembeddingœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "ChatInput-6jYEd",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6jYEdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Redis-6bnvK",
-        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "search_query",
-            "id": "Redis-6bnvK",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ChatInput",
-            "id": "ChatInput-6jYEd",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "xy-edge__ChatInput-6jYEd{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6jYEdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Redis-6bnvK{œfieldNameœ:œsearch_queryœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "Redis-6bnvK",
-        "sourceHandle": "{œdataTypeœ:œRedisœ,œidœ:œRedis-6bnvKœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "ParseDataFrame-TuQiI",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œParseDataFrame-TuQiIœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "df",
-            "id": "ParseDataFrame-TuQiI",
-            "inputTypes": [
-              "DataFrame"
-            ],
-            "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "Redis",
-            "id": "Redis-6bnvK",
-            "name": "dataframe",
-            "output_types": [
-              "DataFrame"
-            ]
-          }
-        },
-        "id": "xy-edge__Redis-6bnvK{œdataTypeœ:œRedisœ,œidœ:œRedis-6bnvKœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-ParseDataFrame-TuQiI{œfieldNameœ:œdfœ,œidœ:œParseDataFrame-TuQiIœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "ParseDataFrame-TuQiI",
-        "sourceHandle": "{œdataTypeœ:œParseDataFrameœ,œidœ:œParseDataFrame-TuQiIœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-TooYY",
-        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-TooYYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "context",
-            "id": "Prompt-TooYY",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ParseDataFrame",
-            "id": "ParseDataFrame-TuQiI",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "xy-edge__ParseDataFrame-TuQiI{œdataTypeœ:œParseDataFrameœ,œidœ:œParseDataFrame-TuQiIœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-TooYY{œfieldNameœ:œcontextœ,œidœ:œPrompt-TooYYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "Memory-7ZUkI",
-        "sourceHandle": "{œdataTypeœ:œMemoryœ,œidœ:œMemory-7ZUkIœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-TooYY",
-        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œPrompt-TooYYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "memory",
-            "id": "Prompt-TooYY",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "Memory",
-            "id": "Memory-7ZUkI",
-            "name": "messages_text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "xy-edge__Memory-7ZUkI{œdataTypeœ:œMemoryœ,œidœ:œMemory-7ZUkIœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-TooYY{œfieldNameœ:œmemoryœ,œidœ:œPrompt-TooYYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "Prompt-TooYY",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-TooYYœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "OllamaModel-Eyu6N",
-        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œOllamaModel-Eyu6Nœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "system_message",
-            "id": "OllamaModel-Eyu6N",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "Prompt",
-            "id": "Prompt-TooYY",
-            "name": "prompt",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "xy-edge__Prompt-TooYY{œdataTypeœ:œPromptœ,œidœ:œPrompt-TooYYœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-OllamaModel-Eyu6N{œfieldNameœ:œsystem_messageœ,œidœ:œOllamaModel-Eyu6Nœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
-      },
-      {
-        "source": "SplitText-ZJult",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-ZJultœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
-        "target": "Redis-6bnvK",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "ingest_data",
-            "id": "Redis-6bnvK",
-            "inputTypes": [
-              "Data"
-            ],
-            "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "SplitText",
-            "id": "SplitText-ZJult",
-            "name": "chunks",
-            "output_types": [
-              "Data"
-            ]
-          }
-        },
-        "id": "xy-edge__SplitText-ZJult{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-ZJultœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-Redis-6bnvK{œfieldNameœ:œingest_dataœ,œidœ:œRedis-6bnvKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
         "animated": false,
         "className": ""
       },
       {
-        "source": "File-8cDZI",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-8cDZIœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SplitText-ZJult",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-ZJultœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "source": "ChatInput-TGepr",
+        "target": "OllamaModel-SOVVu",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-TGeprœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-SOVVuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-TGepr{œdataTypeœ:œChatInputœ,œidœ:œChatInput-TGeprœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-OllamaModel-SOVVu{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-SOVVuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-TGepr",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "OllamaModel-SOVVu",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "RedisChatMemory-mmDsM",
+        "target": "Memory-4p6fp",
+        "sourceHandle": "{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-mmDsMœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}",
+        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œMemory-4p6fpœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-RedisChatMemory-mmDsM{œdataTypeœ:œRedisChatMemoryœ,œidœ:œRedisChatMemory-mmDsMœ,œnameœ:œmemoryœ,œoutput_typesœ:[œMemoryœ]}-Memory-4p6fp{œfieldNameœ:œmemoryœ,œidœ:œMemory-4p6fpœ,œinputTypesœ:[œMemoryœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "RedisChatMemory",
+            "id": "RedisChatMemory-mmDsM",
+            "name": "memory",
+            "output_types": [
+              "Memory"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "memory",
+            "id": "Memory-4p6fp",
+            "inputTypes": [
+              "Memory"
+            ],
+            "type": "other"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "OllamaEmbeddings-C22Mk",
+        "target": "Redis-hqSFR",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-C22Mkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œRedis-hqSFRœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaEmbeddings-C22Mk{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-C22Mkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Redis-hqSFR{œfieldNameœ:œembeddingœ,œidœ:œRedis-hqSFRœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OllamaEmbeddings",
+            "id": "OllamaEmbeddings-C22Mk",
+            "name": "embeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "embedding",
+            "id": "Redis-hqSFR",
+            "inputTypes": [
+              "Embeddings"
+            ],
+            "type": "other"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "Redis-hqSFR",
+        "target": "ParseDataFrame-FncZ6",
+        "sourceHandle": "{œdataTypeœ:œRedisœ,œidœ:œRedis-hqSFRœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œParseDataFrame-FncZ6œ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Redis-hqSFR{œdataTypeœ:œRedisœ,œidœ:œRedis-hqSFRœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-ParseDataFrame-FncZ6{œfieldNameœ:œdfœ,œidœ:œParseDataFrame-FncZ6œ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Redis",
+            "id": "Redis-hqSFR",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "df",
+            "id": "ParseDataFrame-FncZ6",
+            "inputTypes": [
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "ParseDataFrame-FncZ6",
+        "target": "Prompt-1rJE5",
+        "sourceHandle": "{œdataTypeœ:œParseDataFrameœ,œidœ:œParseDataFrame-FncZ6œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-1rJE5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ParseDataFrame-FncZ6{œdataTypeœ:œParseDataFrameœ,œidœ:œParseDataFrame-FncZ6œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-1rJE5{œfieldNameœ:œcontextœ,œidœ:œPrompt-1rJE5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParseDataFrame",
+            "id": "ParseDataFrame-FncZ6",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "context",
+            "id": "Prompt-1rJE5",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "Memory-4p6fp",
+        "target": "Prompt-1rJE5",
+        "sourceHandle": "{œdataTypeœ:œMemoryœ,œidœ:œMemory-4p6fpœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œmemoryœ,œidœ:œPrompt-1rJE5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Memory-4p6fp{œdataTypeœ:œMemoryœ,œidœ:œMemory-4p6fpœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-1rJE5{œfieldNameœ:œmemoryœ,œidœ:œPrompt-1rJE5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Memory",
+            "id": "Memory-4p6fp",
+            "name": "messages_text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "memory",
+            "id": "Prompt-1rJE5",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "Prompt-1rJE5",
+        "target": "OllamaModel-SOVVu",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-1rJE5œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œOllamaModel-SOVVuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-1rJE5{œdataTypeœ:œPromptœ,œidœ:œPrompt-1rJE5œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-OllamaModel-SOVVu{œfieldNameœ:œsystem_messageœ,œidœ:œOllamaModel-SOVVuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-1rJE5",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "system_message",
+            "id": "OllamaModel-SOVVu",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "File-d5Wk4",
+        "target": "SplitText-BYzAg",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-d5Wk4œ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-BYzAgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-d5Wk4{œdataTypeœ:œFileœ,œidœ:œFile-d5Wk4œ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-BYzAg{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-BYzAgœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "data": {
+          "sourceHandle": {
+            "dataType": "File",
+            "id": "File-d5Wk4",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-ZJult",
+            "id": "SplitText-BYzAg",
             "inputTypes": [
               "Data",
               "DataFrame"
             ],
             "type": "other"
+          }
+        },
+        "selected": false,
+        "animated": false,
+        "className": ""
+      },
+      {
+        "source": "ChatInput-TGepr",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-TGeprœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Redis-hqSFR",
+        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œRedis-hqSFRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "search_query",
+            "id": "Redis-hqSFR",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
           },
           "sourceHandle": {
-            "dataType": "File",
-            "id": "File-8cDZI",
-            "name": "data",
+            "dataType": "ChatInput",
+            "id": "ChatInput-TGepr",
+            "name": "message",
             "output_types": [
-              "Data"
+              "Message"
             ]
           }
         },
-        "id": "xy-edge__File-8cDZI{œdataTypeœ:œFileœ,œidœ:œFile-8cDZIœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-ZJult{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-ZJultœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__ChatInput-TGepr{œdataTypeœ:œChatInputœ,œidœ:œChatInput-TGeprœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Redis-hqSFR{œfieldNameœ:œsearch_queryœ,œidœ:œRedis-hqSFRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
         "className": ""
       }
     ],
     "viewport": {
-      "x": 112.19024842771319,
-      "y": -608.1001893801288,
-      "zoom": 0.6397586744500043
+      "x": -139.436793910373,
+      "y": -837.7856726645093,
+      "zoom": 0.7596595979734221
     }
   },
-  "description": "Simple setup RAG with redis as vector db and chat memory",
-  "name": "Simple RAG prompting ",
+  "description": "Perform basic prompting with an OpenAI model.",
+  "name": "Simple RAG",
   "last_tested_version": "1.2.0",
   "endpoint_name": null,
   "is_component": false
